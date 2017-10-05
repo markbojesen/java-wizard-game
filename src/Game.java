@@ -1,3 +1,10 @@
+/**
+ *
+ *  Original course content from codingmadesimple.com
+ *
+ * */
+
+
 import java.awt.*;
 import java.awt.image.BufferStrategy;
 
