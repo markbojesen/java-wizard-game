@@ -22,6 +22,7 @@ public class KeyInput extends KeyAdapter {
                 if (key == KeyEvent.VK_D) handler.setRight(true);
             }
         }
+        System.out.println(e);
     }
 
     public void keyReleased(KeyEvent e) {
@@ -38,5 +39,4 @@ public class KeyInput extends KeyAdapter {
             }
         }
     }
-
 }
