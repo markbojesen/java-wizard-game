@@ -2,8 +2,8 @@ import java.awt.*;
 
 public abstract class GameObject {
 
-    protected  int x;
-    protected  int y;
+    protected int x;
+    protected int y;
     protected float velX = 0;
     protected float velY = 0;
     protected ID id;
@@ -16,7 +16,7 @@ public abstract class GameObject {
 
     public abstract void tick();
     public abstract void render(Graphics g);
-    public abstract Rectangle getBounds();
+    public abstract Rectangle getBounds(); // use later,  for collision detection
 
     public ID getId() {
         return id;

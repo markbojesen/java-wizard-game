@@ -27,6 +27,7 @@ public class Wizard extends GameObject {
         else if (!handler.isRight()) velX = 0;
     }
 
+    // Player
     public void render(Graphics g) {
         g.setColor(Color.blue);
         g.fillRect(x, y, 32, 48);
